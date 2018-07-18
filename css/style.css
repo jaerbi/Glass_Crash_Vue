@@ -1,0 +1,67 @@
+h1 {
+	color:red;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.wrapper {
+	border: 3px solid #777;
+	width: 450px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #D4FFFF;
+}
+
+.crash_img_1 {
+	background: url(../glass/glas_1.png) center no-repeat;
+}.crash_img_2 {
+	background: url(../glass/glas_2.png) center no-repeat;
+}.crash_img_3 {
+	background: url(../glass/glas_3.png) center no-repeat;
+}.crash_img_4 {
+	background: url(../glass/glas_4.png) center no-repeat;
+}.crash_img_5 {
+	background: url(../glass/glas_5.png) center no-repeat;
+}.crash_img_6 {
+	background: url(../glass/glas_6.png) center no-repeat;
+}.crash_img_7 {
+	background: url(../glass/glas_7.png) center no-repeat;
+}
+
+#img {
+	background-size: 90%;
+	width: 250px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.life_bar {
+	width: 300px;
+	border: 2px solid #222;
+	margin: 0 auto;
+}
+
+.life_bar div {
+	height: 25px;
+	background: crimson;
+}
+
+.winnerMsg {
+	text-align: center;
+	margin: 46px 0 75px;
+	display: block;
+	width: 100%;
+	color: green;
+	font-size: 25px;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+button {
+	padding: 10px 20px;
+	margin:0 10px;
+}
