@@ -5,20 +5,23 @@ new Vue({
 		gameEnd: false,
 		winner: 'GAME END!!!! You WINER!!',
 		winnerMsg: false,
-		crash_img_num: [1,2,3,4,5,6,7]
+		numCount: 1
 	},
 	methods: {
 		cresh: function(){
-			this.health -= 14;
+			this.health -= 14.28;
+			this.numCount += 1;
 			if (this.health <= 0 ){
 				this.gameEnd = true;
 				this.winnerMsg = true;
+				this.numCount = 1;
 			}
 		},
 		reset: function(){
 			this.health = 100;
 			this.gameEnd = false;
 			this.winnerMsg = false;
+			this.numCount = 1;
 		}
 	},
 });

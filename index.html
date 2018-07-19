@@ -8,11 +8,11 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<h1>Crash GlasSSs</h1>
+	<h1>Crash Glass</h1>
 	
 	<div id="vue-app">
 		<div class="wrapper">
-			<div id="img" v-for="list in crash_img_num" v-bind:class="'crash_img_' + list" v-if="!gameEnd">
+			<div id="img" v-bind:class="'crash_img_' + numCount" v-if="!gameEnd">
 				
 			</div>
 			<span v-if="winnerMsg" class="winnerMsg">{{ winner }}</span>
